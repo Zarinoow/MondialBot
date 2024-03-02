@@ -1,0 +1,44 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>fr.zarinoow</groupId>
+  <artifactId>MondialBot</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <name>MondialBot</name>
+  <url>http://maven.apache.org</url>
+  <properties>
+    <maven.compiler.source>20</maven.compiler.source>
+    <maven.compiler.target>20</maven.compiler.target>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.discord-jda</groupId>
+      <artifactId>JDA</artifactId>
+      <version>v5.0.0-beta.17</version>
+    </dependency>
+    <dependency>
+      <groupId>com.deepl.api</groupId>
+      <artifactId>deepl-java</artifactId>
+      <version>1.4.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.10.1</version>
+    </dependency>
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
+      <version>1.2.9</version>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>jitpack.io</id>
+      <url>https://jitpack.io</url>
+    </repository>
+  </repositories>
+  <build>
+    <finalName>MondialBot</finalName>
+  </build>
+</project>
