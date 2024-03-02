@@ -1,0 +1,8 @@
+{
+  "bot_token": "YOUR_BOT_TOKEN",
+  "deepl_api_key": "YOUR_DEEPL_API_KEY",
+  "activity": {
+    "type": "COMPETING",
+    "message": "MondialBot"
+  }
+}
